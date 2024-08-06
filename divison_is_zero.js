@@ -6,7 +6,7 @@ function solution(arr, query) {
             arr = arr.slice(query[i]);
         }
     }
-    return arr;
+    return arr;  
 }
 
 /* 오답 코드
