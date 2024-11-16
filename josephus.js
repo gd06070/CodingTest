@@ -9,7 +9,7 @@ function solution(n, k) {
 
     for(let i = 0; i < n; i++) {
         q.push(i+1);
-    }
+    } 
 
     while(q.length) {
         cnt % k === 0 ? arr.push(q.shift()) : q.push(q.shift());
